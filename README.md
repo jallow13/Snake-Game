@@ -24,4 +24,4 @@ This is a simple **Snake Game** built using **Python's Turtle Graphics**. The ob
 ### Installation
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/snake-game.git
+   git clone https://github.com/jallow13/Snake-Game.git
