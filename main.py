@@ -29,8 +29,8 @@ while is_game_on:
     snake.move()
     #Detect collision with Food
     if snake.head.distance(food) < 15:
-        c = c + 1
-        if c % 2 == 0:
+        c +=  1
+        if c % 5 == 0:
             big_food = Food("red",1)
             big_food.random_location()
         food.random_location()
@@ -38,7 +38,6 @@ while is_game_on:
         score.increase_s()
 
     if  big_food and snake.head.distance(big_food) < 20:
-        print("yes")
         big_food.hideturtle()
         score.increase_s(5)
         big_food = None
